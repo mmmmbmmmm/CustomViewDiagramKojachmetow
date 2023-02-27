@@ -55,9 +55,9 @@ class CustomProgress(context: Context?, attrs: AttributeSet?, defStyleAttr: Int)
         bPaint.textSize = numSize.toFloat()
         cPaint.textSize = numSize.toFloat()
         //Назначение цвета
-        aPaint.color = Color.parseColor("#C24346")
-        bPaint.color = Color.parseColor("#C37C43")
-        cPaint.color = Color.parseColor("#308D89")
+        aPaint.color = Color.parseColor("#C39346")
+        bPaint.color = Color.parseColor("#C31C43")
+        cPaint.color = Color.parseColor("#908D39")
         //вычисления овала с помощь метода RectF
         val x = ((width - height / 2) / 2).toFloat()
         val y = (height / 4).toFloat()
