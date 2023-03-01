@@ -1,5 +1,5 @@
 package com.example.customviewdiagramkojachmetow
-
+//импорт библиотек 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.graphics.Canvas
@@ -9,7 +9,7 @@ import android.graphics.RectF
 import android.util.AttributeSet
 import android.view.View
 
-class CustomProgress(context: Context?, attrs: AttributeSet?, defStyleAttr: Int) :
+class CustomProgress(context: Context?, attrs: AttributeSet?, defStyleAttr: Int) : // класс содержит переменные и функции для отрисовки диаграммы 
     View(context, attrs, defStyleAttr) {
 
 
